@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.top-bar,
+.hero,
+.card,
+.bottom-bar {
+  background-color: rgb(19, 159, 229);
+}
+
+.top-bar {
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.hero {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 30%;
+  height: 180px;
+}
+
+/* Bottom bar */
+.bottom-bar {
+  height: 40px;
+}
