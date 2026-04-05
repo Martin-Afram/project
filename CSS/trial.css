@@ -1,0 +1,86 @@
+body {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/mads-schmidt-rasmussen-xfngap_DToE-unsplash\ \(1\).jpg") no-repeat ;
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+
+h3 {
+background-color: rgba(94, 234, 212, 0.1); /* 0.5 = 50% transparent */
+display: inline-block;
+border-radius: 10px;
+padding: 10px;
+color: #5EEAD4;
+}
+
+h1{
+color: rgb(240, 235, 235);
+font-size: 6em;  
+}
+
+p{
+color: rgb(49, 117, 177);
+font-size: 1.5em;
+}
+
+#btn{
+border: none;
+background-color: #5EEAD4;
+color: white;
+padding: 10px;
+font-weight: bold;
+border-radius: 5px;
+}
+
+#btn1{
+border: none;
+background-color: #FFFFFF;
+color: #5EEAD4;
+padding: 10px;
+font-weight: bold;
+border-radius: 5px;
+}  
+img{
+width: 20rem;
+float: right;
+height: 20rem;
+margin-right: 25px;
+}
+
+#logo{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 10px; 
+}
+.flex-container{
+background-color: rgb(12, 12, 11);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: black;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.links a:hover{
+    color: blue;
+}
+#btn3{
+    border: none;
+    background-color: rgb(13, 126, 13);
+    color: rgb(18, 18, 18);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}

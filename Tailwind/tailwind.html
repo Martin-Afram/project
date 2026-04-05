@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snow Sports Hero</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .snow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://www.transparenttextures.com/patterns/snow.png');
+      animation: rgb(255, 241, 241) 10s linear infinite;
+      opacity: 0.4;
+    }
+
+    @keyframes snow {
+      0% { background-position: 0 0; }
+      100% { background-position: 0 1000px; }
+    }
+  </style>
+</head>
+
+<body class="bg-black">
+
+  <div class="relative w-full h-screen overflow-hidden">
+
+    <!-- Background Image -->
+    <img 
+      src="NANA.png" 
+      alt="Snow Athlete"
+      class="absolute inset-0 w-full h-full object-cover"/>
+
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Snow effect -->
+    <div class="snow"></div>
+
+    <!-- Content Container -->
+    <div class="relative z-10 flex items-center justify-center h-full px-6">
+      
+      <!-- Glass Card -->
+      <div class="backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl shadow-2xl p-10 max-w-xl text-center text-white">
+        
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
+          Winter Game Intensity
+        </h1>
+
+        <p class="text-lg text-gray-200 mb-6">
+          Experience the thrill of football in extreme conditions. Power, precision, and endurance in the snow.
+        </p>
+
+        <button class="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition">
+          Explore More
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

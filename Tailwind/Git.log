@@ -1,0 +1,2 @@
+2026-03-28 09:48:24.265 [info] > git check-ignore -v -z --stdin [118ms]
+2026-03-28 09:48:27.864 [info] > git check-ignore -v -z --stdin [160ms]

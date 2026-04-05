@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codetrain Registration Form</title>
+    <link rel="stylesheet" href="registration form.css">
+</head>
+<body>
+    <div class="container">
+        <header class="card header-card">
+            <div class="top-bar"></div>
+            <h1>Codetrain Registration Form</h1>
+            <p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process.</p>
+            <hr>
+            <div class="user-info">
+                <span>martinafram11@gmail.com</span>
+                <a href="#">Switch account</a>
+            </div>
+            <p class="required-text">* Indicates required question</p>
+        </header>
+
+        <form>
+            <div class="card">
+                <label for="name">Full Name <span class="required">*</span></label>
+                <input type="text" id="name" placeholder="Your answer" required>
+            </div>
+
+            <div class="card">
+                <label for="phone">Phone Number <span class="required">*</span></label>
+                <input type="text" id="phone" placeholder="Your answer" required>
+            </div>
+
+            <div class="card">
+                <label>Phone number of next of kin</label>
+                <p class="sub-label">Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+                <input type="text" placeholder="Your answer">
+            </div>
+
+            <div class="card">
+                <label>Can you pay 60% or more of the full Codetrain fees (GHS6000) <span class="required">*</span></label>
+                <div class="radio-group">
+                    <label class="radio-container">No
+                        <input type="radio" name="pay_capacity" value="no">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">Yes
+                        <input type="radio" name="pay_capacity" value="yes">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="card">
+                <label>Please indicate who is going to pay your fees <span class="required">*</span></label>
+                <div class="radio-group">
+                    <label class="radio-container">Yourself
+                        <input type="radio" name="payer" value="self">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">Parent / Sponsor
+                        <input type="radio" name="payer" value="parent">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="radio-container">Organization
+                        <input type="radio" name="payer" value="org">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="card">
+                <label for="location">Location <span class="required">*</span></label>
+                <input type="text" id="location" placeholder="Your answer" required>
+            </div>
+
+            <div class="card">
+                <label for="school">Current or previous school <span class="required">*</span></label>
+                <input type="text" id="school" placeholder="Your answer" required>
+            </div>
+
+            <div class="card">
+                <label for="why">Why do you want to join Codetrain <span class="required">*</span></label>
+                <input type="text" id="why" placeholder="Your answer" required>
+            </div>
+
+            <div class="card">
+                <label for="source">How did you hear about Codetrain? <span class="required">*</span></label>
+                <input type="text" id="source" placeholder="Your answer" required>
+            </div>
+
+            <div class="footer-actions">
+                <div class="left-footer">
+                    <button type="submit" class="btn-submit">Submit</button>
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <span>Page 1 of 1</span>
+                </div>
+                <button type="reset" class="btn-clear">Clear form</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

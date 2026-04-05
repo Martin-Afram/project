@@ -1,0 +1,20 @@
+body{
+    background-image: url("/pixar-scene.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.first{
+    border: 5px solid red;
+    border-radius: 20px;
+}
+
+.h1{
+    color: rgb(0, 13, 255);
+}
+
+.first{
+    border: 5px solid red;
+    border-radius: 20px, 20px, 20px, 20px;
+    border-width: 5px, 5px, 5px, 5px;
+}
